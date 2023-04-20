@@ -1,7 +1,6 @@
 #Exercício 1 - Crie um algoritmo que receba um valor em metros e converta para centímetros.
 
-print("valor em metros")
-m = int(input())
+m = float(input("valor em metros"))
 
 centimetros = (m * 100)
 
