@@ -1,10 +1,11 @@
 #Exercício 1 - Crie um algoritmo que receba um valor em metros e converta para centímetros.
 
+from FUNCOES import metros_centimetros
+
 m = float(input("valor em metros"))
+metros_centimetros(m)
 
-centimetros = (m * 100)
-
-print("Seu valor em centimetros é", centimetros, "centimetros")
+print("Seu valor em centimetros é", metros_centimetros, "centimetros")
 
 
 #Exercício 2 - Crie um algoritmo que pergunte quanto você ganha por hora e o número de horas que você trabalha por mês, o algoritmo deve calcular e mostrar qual seu salário naquele mês
